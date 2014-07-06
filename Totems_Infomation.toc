@@ -1,0 +1,12 @@
+## Interface: 50400
+## Title: Totems Infomation
+## Title-deDE: Totems Infomation
+## Notes: This Addon post you Manatide and Healingtide CD into the Chat.
+## Notes-deDE: Dieses Addon Postet die CD zeit eueres Mana und Heal Totems in denn Chat.
+## Author: Junxx EU-Khaz'goroth
+
+## Version: 0.1
+
+Manatide.lua
+Healingtide.lua
+Localization.lua
