@@ -7,6 +7,6 @@
 
 ## Version: 0.1
 
+Localization.lua
 Manatide.lua
 Healingtide.lua
-Localization.lua

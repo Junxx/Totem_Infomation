@@ -1,5 +1,8 @@
 --[[--------------------------------------------------------------------
-	HealShamanCDChat
+	Totems Information
+	Display Totems CD on say Chat...
+	Written by Junxx EU-Khaz'goroth <addons@colordesigns.de>
+	http://wow.curseforge.com/addons/totems-infomation/
 ----------------------------------------------------------------------]]
 
 local _, namespace = ...
@@ -16,14 +19,14 @@ local LOCALE = GetLocale()
 
 if LOCALE:match("^en") then
 return end
-------------------------------------------------------------------------
---	German | Deutsch
-------------------------------------------------------------------------
 
 if LOCALE == "deDE" then
-	-- German translations go here
-	L["test"] = "Deutsch"
+	-- German Mana Tide
+	L["Mana Tide aktiv!"] = "Manaflut aktiv!"
+	L["Mana Tide ready in 15 sec!"] = "Manaflut bereit in 15 Sekunden!"
+	L["Mana Tide ready!"] = "Manaflut bereit !"
+	-- German Healing Tide
 	L["Healing Tide aktiv!"] = "Heilungsflut aktiv!"
-	L["Healing Tide ready in 15 Seconds!"] = "Heilungsflut bereit in 15 Sekunden!"
+	L["Healing Tide ready in 15 sec!"] = "Heilungsflut bereit in 15 Sekunden!"
 	L["Healing Tide ready!"] = "Heilungsflut bereit!"
 return end

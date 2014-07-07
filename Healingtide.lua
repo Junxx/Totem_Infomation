@@ -1,14 +1,20 @@
+--[[--------------------------------------------------------------------
+	Totems Information
+	Display Totems CD on say Chat...
+	Written by Junxx EU-Khaz'goroth <addons@colordesigns.de>
+	http://wow.curseforge.com/addons/totems-infomation/
+----------------------------------------------------------------------]]
+
 local ADDON_NAME, namespace = ...
 local L = namespace.L
 
--- local kanal = 5                                  -- aktivieren wenn die Nachricht in einem Channel (hier die 5) wiedergegeben werden soll
 	  local messages = {
-          { time = 0, channels = "SAY", message = "Heilungsflut aktiv!" },
--- { time = 0, channels = "CHANNEL", message = "Healing Tide Aktiv !" },  -- für Meldung in einem Channel aktivieren
-		  { time = 165, channels = "SAY", message = "Heilungsflut bereit in 15 Sekunden!" },
---{ time = 165, channels = "CHANNEL", message = "Healing Tide Ready in 15 Seconds!" },  -- für Meldung in einem Channel aktivieren
-		  { time = 180, channels = "SAY", message = "Heilungsflut bereit!" },
---{ time = 180, channels = "CHANNEL", message = "Healing Tide Ready!" },  -- für Meldung in einem Channel aktivieren
+        { time = 0, channels = "SAY", message = L["Healing Tide aktiv!"] },
+		    { time = 165, channels = "SAY", message = L["Healing Tide ready in 15 sec!"] },
+		    { time = 180, channels = "SAY", message = L["Healing Tide ready!"] },
+        --{ time = 4, channels = "SAY", message = "SL 3" },
+        --{ time = 5, channels = "SAY", message = "SL 2" },
+        --{ time = 6, channels = "SAY", message = "SL 1" },
       }
        
       local counter, nextMessage = 0, 1
@@ -40,7 +46,6 @@ local L = namespace.L
           -- Send the message!
           for channel in m.channels:gmatch("%S+") do
               SendChatMessage( m.message, channel)
---SendChatMessage( m.message, channel, nil, kanal)     -- Wenn die Nachricht in einem Channel wiedergegeben werden soll z.B. HeilerChannel "5"
 			 end
        
           -- Queue up the next message.
