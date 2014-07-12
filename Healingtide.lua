@@ -1,5 +1,5 @@
 --[[--------------------------------------------------------------------
-	Totems Information
+	Totem Information
 	Display Totems CD on say Chat...
 	Written by Junxx EU-Khaz'goroth <addons@colordesigns.de>
 	http://wow.curseforge.com/addons/totems-infomation/
