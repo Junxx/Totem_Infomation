@@ -44,9 +44,16 @@ local L = namespace.L
           end
        
           -- Send the message!
-          for channel in m.channels:gmatch("%S+") do
+        local inCombat = UnitAffectingCombat("player")
+          -- Send the message!
+          if inCombat then
+            for channel in m.channels:gmatch("%S+") do
               SendChatMessage( m.message, channel)
-			 end
+            end
+          else 
+              self:Hide()
+              counter, nextMessage = 0, 1
+          end
        
           -- Queue up the next message.
           nextMessage = nextMessage + 1
@@ -56,6 +63,7 @@ local L = namespace.L
               self:Hide()
               counter, nextMessage = 0, 1
           end
+          
       end )
 	  
 	  

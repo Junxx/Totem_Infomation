@@ -5,8 +5,9 @@
 ## Notes-deDE: Dieses Addon Postet die CD zeit eueres Mana und Heal Totems in denn Chat.
 ## Author: Junxx EU-Khaz'goroth
 
-## Version: 1.1
+## Version: 1.2
 
 Localization.lua
 Manatide.lua
 Healingtide.lua
+Stormlash.lua

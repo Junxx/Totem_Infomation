@@ -29,4 +29,9 @@ if LOCALE == "deDE" then
 	L["Healing Tide aktiv!"] = "Heilungsflut aktiv!"
 	L["Healing Tide ready in 15 sec!"] = "Heilungsflut bereit in 15 Sekunden!"
 	L["Healing Tide ready!"] = "Heilungsflut bereit!"
+	-- German Stormlash Totem
+	L["Stormlash Totem aktiv!"] = "Sturmpeitsche aktiv!"
+	L["Stormlash Totem run out!"] = "Sturmpeitsche ausgelaufen!"
+	L["Stormlash Totem ready in 15 sec!"] = "Sturmpeitsche bereit in 15 Sekunden!"
+	L["Stormlash Totem ready!"] = "Sturmpeitsche bereit!"
 return end
