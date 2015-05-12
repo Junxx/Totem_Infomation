@@ -22,9 +22,9 @@ return end
 
 if LOCALE == "deDE" then
 	-- German Mana Tide
-	L["Mana Tide aktiv!"] = "Manaflut aktiv!"
-	L["Mana Tide ready in 15 sec!"] = "Manaflut bereit in 15 Sekunden!"
-	L["Mana Tide ready!"] = "Manaflut bereit !"
+    --	L["Mana Tide aktiv!"] = "Manaflut aktiv!"
+    --	L["Mana Tide ready in 15 sec!"] = "Manaflut bereit in 15 Sekunden!"
+    --	L["Mana Tide ready!"] = "Manaflut bereit !"
 	-- German Healing Tide
 	L["Healing Tide aktiv!"] = "Heilungsflut aktiv!"
 	L["Healing Tide ready in 15 sec!"] = "Heilungsflut bereit in 15 Sekunden!"

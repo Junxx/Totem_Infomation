@@ -11,8 +11,8 @@ local L = namespace.L
 	  local messages = {
         { time = 0, channels = "SAY", message = L["Stormlash Totem aktiv!"] },
         { time = 10, channels = "SAY", message = L["Stormlash Totem run out!"] },
-		{ time = 285, channels = "SAY", message = L["Stormlash Totem ready in 15 sec!"] },
-		{ time = 300, channels = "SAY", message = L["Stormlash Totem ready!"] },
+		    { time = 285, channels = "SAY", message = L["Stormlash Totem ready in 15 sec!"] },
+		    { time = 300, channels = "SAY", message = L["Stormlash Totem ready!"] },
         --{ time = 4, channels = "SAY", message = "SL 3" },
         --{ time = 5, channels = "SAY", message = "SL 2" },
         --{ time = 6, channels = "SAY", message = "SL 1" },
